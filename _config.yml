@@ -4,24 +4,17 @@
 
 # SEO plugin
 title: My Resume
-author: Steve Doe
-tagline: Full Stack Developer # Short description for jekyll-seo-tag
-description: A beautiful Jekyll theme for creating resume # Longer description for jekyll-seo-tag
+author: Guillaume Lhermenier
+tagline: SRE # Short description for jekyll-seo-tag
+description: giom-l resume # Longer description for jekyll-seo-tag
 
 url: "https://giom-l.github.io"
 baseurl: "/cv" # change it according to your repository name
 
-twitter:
-  username: stevedoe123
-  card: summary
-
 social:
   links:
-    - https://twitter.com/stevedoe123
-    - https://www.facebook.com/stevedoe123
-    - https://www.linkedin.com/in/stevedoe123
-    - https://github.com/stevedoe123
-    - https://keybase.io/stevedoe123
+    - https://www.linkedin.com/in/guillaumelhermenier/
+    - https://github.com/giom-l
 
 google_site_verification: # Put your google verification tag here
 

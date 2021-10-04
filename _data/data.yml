@@ -4,243 +4,319 @@
 
 header:
   # Profile information
-  avatar: profile.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-  email: steve.doe@website.com
-  phone: 0123 456 78900
-  website: https://yourwebsite.com
-  linkedin: stevedoe
-  github: stevedoe
+  avatar:  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  email: guillaume.lhermenier@gmail.com
+  phone:
+  website:
+  linkedin: guillaumelhermenier
+  github: giom-l
   gitlab:
   bitbucket:
-  twitter: "@stevedoe"
+  twitter: "@giom_lh"
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
 
 languages:
-  - idiom: English
-    level: Native
-  - idiom: French
-    level: Professional
-  - idiom: Spanish
-    level: Professional
+  - idiom: Français
+    level: Natif
+  - idiom: Anglais
+    level: Courant
+  - idiom: Allemand
+    level: Notions
 
 interests:
-  - name: Climbing
+  - name: Découvrir et apprendre (cuisine, voyages, tech). Tant qu'il y a des choses à apprendre, ca me va.
+  - name: Badminton
     link:
-  - name: Snowboarding
-    link:
-  - name: Cooking
+  - name: Lire un bon livre
     link:
 
 summary: |
-  Summarise your career here. You can make a PDF version of your resume using our free Sketch template here.
-  Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-  Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-  Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-  Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.
+  Expert en rien et curieux de tout, qui aime apprendre et échanger.<br/>
+  Si cela peut se faire dans un environnement cool et bienveillant, c'est encore mieux.<br/>
+
+  <p class="quote"><i>Its fine to celebrate success but it is more important to heed the lessons of failure. – Bill Gates</i></p>
+
 
 education:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+  - degree: Master MIAGE
+    university: Université Evry Val d'Essonne
+    time: 2006 - 2009
+    details:
+  - degree: DUT Informatique de gestion
+    university: IUT Fontainebleau
+    time: 2004 - 2006
+    details:
 
 experiences:
-  - role: Lead Developer
-    time: 2018 - Present
-    company: Startup Hub
+  - role: Consultant SRE
+    time: 2019 - Aujourd'hui
+    company: Xebia / Publicis Sapient
     details: |
-      Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit.
-      Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-      Donec pede justo, fringilla vel.
-        - Bullet point
-        - Bullet point
+      Mission "IODS" @ Kering <br/><br/>
+        Architecture / Mise en place d'un cluster Apache Druid. <br/>
+        Architecture / Migration de l'ensemble des composants applicatifs vers AWS : utilisation de services managés quand nécessaire et utile. <br/>
+        Industrialisation de tâches récurrentes (déploiements configs & applicatifs, reboot d'instances).<br/>
+        Amélioration continue de la stabilité de la plateforme et de son observabilité.<br/>
+        Mise en place de tests "Disaster Recovery".<br/>
+        Evangélisation sur les bonnes pratiques dans le cloud (sécurité/moindre privilège, composants immuables, reproductibilité, coûts).<br/>
+        Formation interne équipe sur le fonctionnement de services AWS.
+    technologies:
+    - Processing:NiFi,EMR,Spark
+    - Data:Kafka,Cassadra,Solr,Druid
+    - Api:NodeJS/Express
+    - Docker/Docker compose
+    - Monitoring/Logging:Prometheus,Elasticsearch,Kibana,Grafana,Vector
+    - Infra:Terraform,Terragrunt,Packer
+    - Config:Ansible
+    - AWS
+
+  - role: Développeur curieux intéressé par l'automatisation
+    time: 2017 - 2019
+    company: BNP Paribas
+    details: |
+      Réalisation de mécanismes d’ingestion data génériques pour les diﬀérentes entités du groupe.<br/>
+      Mise en place de l’intégration et déploiement continu des projets : Jenkins, Ansible, CA ARA, Docker.<br/>
+      Automatisation de tests (unitaires, intégration, non régression, performances) dans une approche multi-composants.<br/>
+      Contexte international et agile : Echanges écrits et oraux en anglais dans une équipe multinationale (Belgique flamande, Italie, France).<br/>
+      Developpement d'un générateur de données métier cohérentes (utilisation de dictionnaires, de patterns ou sélection dans des sources de données utilisables) à but de tests d'intégration.
     achievements:
       desc: |
-        Praesentium voluptatum deleniti atque corrupti quos dolores et quas
-        molestias excepturi sint occaecati cupiditate non provident.
-      highlights:
-        - Lorem ipsum dolor sit amet, 80% consectetuer adipiscing elit.
-        - At vero eos et accusamus et iusto odio dignissimos.
-        - Blanditiis praesentium voluptatum deleniti atque corrupti.
-        - Maecenas tempus tellus eget.
+        Retour aux sources lointaines, je remets les mains dans le code officiellement et l'univers de l'automatisation m'intéresse de plus et plus.<br/>
+        Le continuous delivery est en place, le continuous deployment semble devenir accessible.
     technologies:
-      - Angular
-      - Python
-      - jQuery
-      - Webpack
-      - HTML/SASS
-      - PostgresSQL
+      - Kafka
+      - Java
+      - Scala
+      - IBM Websphere Liberty Core
+      - ELK
+      - Jenkins
+      - Ansible
+      - Docker
 
-  - role: Senior Software Developer
-    time: 2014 - 2018
-    company: Google
+  - role: DevOps débutant
+    time: 2016 - 2017
+    company: BNP Paribas
     details: |
-      Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit.
-      Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel.
+      Appui technique et "process internes" auprès des équipes de développeurs de divers projets.<br/>
+      Mise en place d’outils pour faciliter le quotidien des équipes (gestionnaire de mots de passe centralisé, suivi de production automatisé).<br/>
+      "Évangelisation" sur l’automatisation, édition de bonnes pratiques.<br/>
+
+      DevOps :
+        - Rapprochement des développeurs et des équipes de production.
+        - Assistance aux développeurs afin de rendre les applications déployables automatiquement, proprement et de manière intégrée au SI.
     achievements:
       desc: |
-        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
-    technologies:
-      - React
-      - Redux
-      - Django
-      - Webpack
-      - HTML/SASS
-      - MySQL
+        DevOps. Quelle belle idée.<br/>
+        On apprend vite que non, ca n'est pas qu'un mot magique ou un outil.<br/>
+        C'est compliqué, ça demande des liens. De l'humain.<br/>
+        Mais quand on travaille ensemble, c'est quand même plus sympa et on apprend beaucoup de choses :
+          - mise en place de plateforme d'intégration continue (maven, git, nexus)
+          - un peu de docker, du kubernetes et surtout la redécouverte d'un monde intéressant
 
-  - role: Co-Founder & Lead Developer
-    time: 2012 - 2014
-    company: To-do Lists
+  - role: Chef de projet BI
+    time: 2016 - 2016
+    company: BNP Paribas
     details: |
-      Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit.
-      Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec.
-
-      Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes.
+      Mise en place d’une application web de reporting sur les virement internationaux des clients Entreprises et Institutions (CIB) :
+        - Réalisation des spécifications fonctionnelles et techniques (Datawarehouse, Datamart, Reportings)
+        - Pilotage de la réalisation (multi TMA)
+        - Suivi planning et budgétaires
     technologies:
-      - Django
-      - JavaScript
-      - Node.js
-      - Require.js
-      - HTML/SASS
+      - Teradata 14
+      - Coheris Liberty Pilot & Insight
+      - SVN/Jenkins/Sonar/Nexus/CA ARA
 
-  - role: Web Developer
-    subrole: Intern
-    time: 2011 - 2012
-    company: Amazon
+  - role: Responsable d’applications BI
+    time: 2015 - 2016
+    company: BNP Paribas
     details: |
-      Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit.
-      Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec. Fusce vulputate eleifend sapien.
-      Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus.
-      Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum.
+      Maintenance opérationnelle et technique de plusieurs applications de reportings :
+        - Suivi des évolutions et de la production
+        - Pilotage planning et budgétaire
+        - Pilotage de la TMA
+
+      Rationalisation du processus de releases des applications du domaine Reporting :
+        - Adhésion à une Plateforme d'Intégration Continue groupe : SVN, Jenkins, Sonar, Nexus
+        - Adhésion au programme DevOps d'intégration continue : Pilote sur l'outil CA Application Release Automation
     technologies:
-      - Ruby on Rails
-      - jQuery
-      - HTML/LESS
-      - MongoDB
+      - SAP Business Objects XI3.1 & 4.0
+      - Teradata 14
+      - IBM Websphere 8.5
+      - SVN/Jenkins/Sonar/Nexus/CA ARA
+
+  - role: Chef de projet BI
+    time: 2013 - 2015
+    company: BNP Paribas
+    details: |
+      Mise en place d'une application de reporting destinées aux conseillers d'Affaires Entreprises et Retail de la Banque De Détails France (BDDF) pour le suivi des PME :
+        - Note de cadrage de la solution technique
+        - Réalisation des spécifications fonctionnelles et techniques (datamart, reportings)
+        - Pilotage de la réalisation
+        - Suivi planning et budgétaires
+        - Prise en charge de certains développements BO & ingestion de données
+    technologies:
+      - Cognos BI 10.2
+      - Teradata 12 & 14
+      - IBM Websphere 7 & 8
+      - Java J2EE, Spring
+
+  - role: Responsable d’applications BI
+    time: 2010 - 2013
+    company: BNP Paribas
+    details: |
+      Responsable d'applications BI destinées aux conseillers d'Affaires des réseaux Entreprises et Retail de la Banque de Détail France (BDDF)
+        - Cadrage des évolutions et suivi
+        - Suivi des réalisations de la TMA
+        - Pilotage budgétaire des applications
+        - Prise en charge de certains développements BO & ingestion de données
+    technologies:
+    - Business Objects (XIr2, XI3)
+    - Teradata (v2r6, 12)
+    - IBM Websphere ND 6/7
+    - SVN/Jenkins/Sonar/Nexus/CA ARA
+
+  - role: Responsable pôle de compétences Access
+    time: 2009 - 2010
+    company: Allianz Group
+    details: |
+      Responsable du pôle de compétence Access au sein de la Direction des Opérations VIE.<br/>
+
+      Prise en charge des analyses et développement d’applications multi-utilisateurs :
+        - Outil de gestion d’un portefeuille de contrats obsèques (Caton)
+        - Outil de suivi des contrôles quotidiens du travail d’un gestionnaire VIE
+        - Outil de suivi du plan de contrôles locaux DDOV
+
+      Tâches courantes :
+        - Maintenance applicative des outils existants, formation et accompagnement des utilisateurs
+        - Projet de cartographie des processus de gestion manuelle DR Paris
+        - Mise en place d'un process de déploiement/mise à jour des applications
+    technologies:
+    - Access 2003
+    - VBA,VBS
+
+  - role: Assistant chef de projet Maîtrise d'Ouvrage
+    subrole: Apprenti, Master MIAGE
+    time: 2007 - 2009
+    company: AGF
+    details: |
+      Etude d’un projet d’industrialisation de jeux d’essais pour le domaine de la recette fonctionnelle.<br/>
+      Sujet de mémoire Master 2 : <i>approche méthodologique de l’industrialisation de la production de jeux d’essais et participation à l’amélioration de la qualité du processus de recette applicative</i>
+
+      Projet de refonte du référentiel des recettes applicatives :
+        - Etablissement de modèles de fichiers de suivi
+        - Supervision des réalisations et suivi d’avancement, conseil méthodologique
+
+      Adhésion à un pôle de compétence Access (études et développement d’applications pour la direction VIE) :
+        - Outil de suivi de formation de nouveaux collaborateurs (OTP)
+        - Outil de suivi de l’opération de sécurisation du portefeuille (DDAC)
+    technologies:
+      - Access 2003
+      - VBA,VBS
+
+  - role: Analyste développeur
+    subrole: Apprenti, Licence MIAGE
+    time: 2006 - 2007
+    company: AGF
+    details: |
+      Activités de recettes applicatives (rédaction dossiers, plans de test, reporting).<br/>
+      Participation à la Tierce Recette Applicative d’un site de e-commerce pour un grand compte de la distribution.
+    technologies:
+    - Access 2003
+    - VBA,VBS
 
 awards:
-  - name: Award Name Lorem
+  - name: Certified Kubernetes Administrator (CKA)
     description: |
-      Award desc goes here, ultricies nec, pellentesque
-      eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.
-  - name: Award Name Lorem
+      Cert. ID : <a href="https://www.credly.com/badges/3e5016a4-756b-4b70-871f-2c8a8cb14682">LF-12w3o0wgou</a><br/>
+      Validité : Janvier 2024
+  - name: Certified Kubernetes Administrator Developer (CKAD)
     description: |
-      Award desc goes here, ultricies nec, pellentesque
-      eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.
+      Cert. ID : <a href="https://www.credly.com/badges/9bf90388-fd0c-4a6f-abf1-5c97675eb3f7">LF-a7v7f2qkw2</a><br/>
+      Validité : Octobre 2023
 
 # Projects are not used in this template for now
-projects:
-  title: Projects
-  intro: >
-    You can list your side projects or open source libraries in this
-    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-    - title: Velocity
-      link: "#hook"
-      tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-    - title: DevStudio
-      link: "#"
-      tagline: "A responsive website template designed to help web developers/designers market their services."
-
-    - title: Tempo
-      link: "#"
-      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-    - title: Atom
-      link: "#"
-      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-    - title: Delta
-      link: "#"
-      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#projects:
+#  title: Projects
+#  intro: >
+#    You can list your side projects or open source libraries in this
+#    section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#    Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#  assignments:
+#    - title: Velocity
+#      link: "#hook"
+#      tagline: "A responsive website template designed to help startups promote, market and sell their products."
+#
+#    - title: DevStudio
+#      link: "#"
+#      tagline: "A responsive website template designed to help web developers/designers market their services."
+#
+#    - title: Tempo
+#      link: "#"
+#      tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#
+#    - title: Atom
+#      link: "#"
+#      tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#
+#    - title: Delta
+#      link: "#"
+#      tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 # Publications are not used in this template for now
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-    - title: The Art of Computer Programming
-      link: "#"
-      authors: Donald E. Knuth
-      conference: Addison-Wesley, 1968
-
-    - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-      link: "#"
-      authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-      conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-    - title: A syntax directed compiler for Algol 60
-      link: "#"
-      authors: Edgar T. Irons
-      conference: "Comm. ACM 4 (1961), 51–55"
+#publications:
+#  title: Publications
+#  intro: |
+#    You can list your publications in this section. Lorem ipsum dolor sit
+#    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#    bibendum fringilla a eu lectus.
+#  papers:
+#    - title: The Art of Computer Programming
+#      link: "#"
+#      authors: Donald E. Knuth
+#      conference: Addison-Wesley, 1968
+#
+#    - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#      link: "#"
+#      authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#      conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#
+#    - title: A syntax directed compiler for Algol 60
+#      link: "#"
+#      authors: Edgar T. Irons
+#      conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-  - category: Frontend
+  - category: Cloud
     tools:
-      - name: Angular
-        level: 98%
-      - name: React
-        level: 98%
-      - name: JavaScript
-        level: 98%
-      - name: Node.js
-        level: 95%
-      - name: HTML/CSS/SASS/LESS
-        level: 85%
-  - category: Backend
+      - AWS
+      - GCP
+
+  - category: IaC & config management
     tools:
-      - name: Python/Django
-        level: 95%
-      - name: Ruby/Rails
-        level: 98%
-      - name: PHP
-        level: 87%
-      - name: WordPress/Shopify
-        level: 92%
-  - category: others
+      - Terraform
+      - Terragrunt
+      - Ansible
+      - Packer
+
+  - category: CI / CD
     tools:
-      - DevOps
-      - Code Review
-      - Git
-      - Unit Testing
-      - Wireframing
-      - Sketch
-      - Balsamiq
-      - WordPress
-      - Shopify
+      - Gitlab CI
+      - Jenkins
+      - Github Actions
+      - Argo CD
+
+  - category: Observabilite
+    tools:
+      - Vector
+      - Prometheus
+      - Grafana
+      - Kibana
+      - Elasticsearch
+
+  - category: Conteneurs
+    tools:
+      - Docker
+      - Kubernetes
+
