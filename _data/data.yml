@@ -227,6 +227,10 @@ experiences:
     - VBA,VBS
 
 awards:
+  - name: Certified Kubernetes Security Specialist (CKS)
+    description: |
+      Cert. ID : <a href="https://www.credly.com/badges/87531095-7c9a-4685-af21-ccf99ad95bae">LF-cwbzd5wiub</a><br/>
+      Validité : Octobre 2023
   - name: Certified Kubernetes Administrator (CKA)
     description: |
       Cert. ID : <a href="https://www.credly.com/badges/3e5016a4-756b-4b70-871f-2c8a8cb14682">LF-12w3o0wgou</a><br/>
