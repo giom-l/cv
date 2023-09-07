@@ -27,7 +27,7 @@ languages:
 
 interests:
   - name: Découvrir et apprendre (cuisine, voyages, tech). Tant qu'il y a des choses à apprendre, ca me va.
-  - name: Badminton
+  - name: Travaux en tous genres (passage en cours du titre Agent de Maintenance des Batîments)
     link:
   - name: Lire un bon livre
     link:
@@ -51,8 +51,30 @@ education:
 
 experiences:
   - role: Consultant SRE
-    time: 2019 - Aujourd'hui
-    company: Xebia / Publicis Sapient
+    time: 2022 - Aujourd'hui
+    company: Freelance
+    details: |
+      Mission "IODS" @ Kering <br/><br/>
+        Refactoring (simplification & switch EC2 -> ECS) et sécurisation des accès API nodeJs <br/>
+        Refactoring des processes de CI/CD (migration Jenkins, Github Actions et Artifactory) <br/>
+        Animation de l'équipe SRE (maintien/priorisation du backlog et de la roadmap Jira) <br/>
+        FinOps : efforts de rationnalisation des coûts dans le cloud (passage en ARM, revue des traitements) <br/>
+        SecOps : amélioration et application de règles de sécurité (fournies par la compliance Cloud interne et définies par l'équipe)
+    technologies:
+    - Processing:NiFi,AWS EMR,Spark,Airflow
+    - Data:Kafka,Cassadra,Solr,Druid
+    - Api:NodeJS/Express
+    - Monitoring/Logging:Prometheus,Elasticsearch,Kibana,Grafana,Vector
+    - Infra:Terraform,Terragrunt,Packer,ECS
+    - Config:Ansible
+    - CI/CD:Jenkins, Github Actions
+    - Scripting:Python
+    - AWS
+    - Jira/Confluence
+
+  - role: Consultant SRE
+    time: 2019 - 2022
+    company: Xebia / Publicis Sapient 
     details: |
       Mission "IODS" @ Kering <br/><br/>
         Architecture / Mise en place d'un cluster Apache Druid. <br/>
@@ -63,13 +85,15 @@ experiences:
         Evangélisation sur les bonnes pratiques dans le cloud (sécurité/moindre privilège, composants immuables, reproductibilité, coûts).<br/>
         Formation interne équipe sur le fonctionnement de services AWS.
     technologies:
-    - Processing:NiFi,EMR,Spark
+    - Processing:NiFi,AWS EMR,Spark
     - Data:Kafka,Cassadra,Solr,Druid
     - Api:NodeJS/Express
     - Docker/Docker compose
     - Monitoring/Logging:Prometheus,Elasticsearch,Kibana,Grafana,Vector
     - Infra:Terraform,Terragrunt,Packer
     - Config:Ansible
+    - CI/CD:Jenkins
+    - Scripting:Python    
     - AWS
 
   - role: Développeur curieux intéressé par l'automatisation
@@ -311,7 +335,7 @@ skills:
       - Github Actions
       - Argo CD
 
-  - category: Observabilite
+  - category: Observabilité
     tools:
       - Vector
       - Prometheus
@@ -323,4 +347,5 @@ skills:
     tools:
       - Docker
       - Kubernetes
+      - AWS ECS
 
